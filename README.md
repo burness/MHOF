@@ -18,11 +18,12 @@ python2.6.7+numpy+scipy+sklearn+cv2
 
 没有截图，大概就是包括帧数、每帧的SRC（重构误差）、处理时间
 
+  
 
 
-<code>
-Burness 
-Shanghai University
-</code>
-
+  
+  
+<code>Burness Shanghai University</code>
 This is [burness' blog](http://blog.duanshishi.com "burness ").
+
+If you have any question, please emali at burness1990@gmail.com
