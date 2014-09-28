@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{626f8fbd-9098-4980-a948-cf46fd87cde5}</ProjectGuid>
+    <ProjectHome>.</ProjectHome>
+    <StartupFile>test_MHOF_Extraction.py</StartupFile>
+    <SearchPath>
+    </SearchPath>
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <Name>MHOF</Name>
+    <RootNamespace>MHOF</RootNamespace>
+    <LaunchProvider>Standard Python launcher</LaunchProvider>
+    <CommandLineArguments>Crowd-Activity-All.avi</CommandLineArguments>
+    <InterpreterPath />
+    <InterpreterArguments />
+    <EnableNativeCodeDebugging>False</EnableNativeCodeDebugging>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="coeff_MHOF.py" />
+    <Compile Include="common.py" />
+    <Compile Include="dictionary_learning_MHOF.py" />
+    <Compile Include="dictionary_learning_MHOF_online.py" />
+    <Compile Include="dictionary_learning_spams.py" />
+    <Compile Include="generate_400_flow_hist.py" />
+    <Compile Include="matplotlib_update_plot.py" />
+    <Compile Include="MHOF_Extraction.py" />
+    <Compile Include="MHOF_histogram_block.py" />
+    <Compile Include="opt_flow.py" />
+    <Compile Include="src.py" />
+    <Compile Include="test_dl_online.py" />
+    <Compile Include="test_MHOF_Extraction.py" />
+    <Compile Include="fore_training_MHOF_Extraction.py" />
+    <Compile Include="video.py" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.Common.targets" />
+</Project>
