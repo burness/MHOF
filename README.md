@@ -20,11 +20,9 @@ python2.6.7+numpy+scipy+sklearn+cv2
 
 
 
-
-
-
-
-I love coding
- -----------------
+<code>
 Burness 
 Shanghai University
+</code>
+
+This is [burness' blog](http://blog.duanshishi.com "burness ").
